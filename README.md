@@ -1,6 +1,6 @@
-# Pt-Alloy-Package
+# Supplementary Data
 
-Determining the three-dimensional atomic structure of an amorphous solid
+Atomic-scale identification of the active sites of nanocatalysts
 
 Coherent Imaging Group, UCLA
 
@@ -12,9 +12,7 @@ Coherent Imaging Group, UCLA
 
 # Overview
 
-Amorphous solids such as glass are ubiquitous in our daily life and have found broad applications ranging from window glass and solar cells to telecommunications and transformer cores. However, due to the lack of long-range order, the three dimensional (3D) atomic structure of amorphous solids have thus far defied any direct experimental determination. Here, using a multi-component metallic glass
-as a model, we advance atomic electron tomography technique with newly developed RESIRE (REal Space Iterative Algorithm) package to determine its 3D atomicpositions and chemical species with a precision of 21 picometer. We quantify the short-range order (SRO) and medium-range order (MRO) of the 3D atomicarrangement, as well as the size, shape,
-volume, and structural distortion of these MROs with unprecedented detail.
+Heterogeneous catalysts play a key role in the chemical and energy industries1. To date, most industrial-scale heterogeneous catalytic reactions have relied on nanocatalysts. However, despite significant progress from theoretical, experimental and computational studies, identifying the active sites of alloy nanocatalysts remains a major challenge. This limitation is mainly due to an incomplete understanding of the three-dimensional (3D) atomic and chemical arrangement of different constituents and structural reconstructions driven by catalytic reactions. Here, we use atomic electron tomography to determine, for the first time, the 3D local atomic structure, surface morphology and chemical composition of Pt alloy nanocatalysts for the electrochemical oxygen reduction reaction (ORR). We reveal the facet, surface concaveness, structural and chemical order/disorder, coordination number, and bond length with unprecedented 3D atomic detail. The experimental 3D atomic coordinates are used by first-principles trained machine learning to identify the active sites of the nanocatalysts, which are corroborated by electrochemical measurements. By analyzing the structure-activity relationship, we formulate an equation named the local environment descriptor to balance the strain and ligand effects and gain physical and chemical insight into the ORR active sites of the Pt alloy nanocatalysts. The experimental data and source codes for the 3D image reconstruction and post analysis are provided here.
 
 # System Requirements
 
@@ -37,7 +35,7 @@ Windows: Windows 10 18368.778
 
 ### Matlab Version Requirements
 
-The package is tested with `Matlab` R2019b. For correctly using of this package, we suggest `Matlab` version R2018a or higher.
+The package is tested with `Matlab` R2020b. For correctly using of this package, we suggest `Matlab` version R2018a or higher.
 
 # Repo Contents
 
