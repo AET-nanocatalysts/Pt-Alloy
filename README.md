@@ -56,7 +56,7 @@ This folder contains the experimental projections after denoising and alignment 
 
 Folder: [Final_reconstruction_volume](./2_Final_reconstruction_volume)
 
-This folder contains the 3D volume of all Pt alloys in the experiments reconstructed by projections and angles in [Measured_data](./1_Measured_data).
+This folder contains the 3D volume of all Pt alloys in the experiments reconstructed by projections and angles in [Measured_data](./1_Measured_data). The reconstruction codes can be achieved in [Resire_package](https://github.com/AET-MetallicGlass/Supplementary-Data-Codes/2_RESIRE_package)
 
 ### 3. Experimental Atomic Model
 
