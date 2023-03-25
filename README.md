@@ -54,25 +54,25 @@ This folder contains the experimental projections after denoising and alignment 
 
 ### 2. Reconstructed 3D Volume
 
-Folder: [Final_reconstruction_volume](./3_Final_reconstruction_volume)
+Folder: [Final_reconstruction_volume](./2_Final_reconstruction_volume)
 
 This folder contains the 3D volume of all Pt alloys in the experiments reconstructed by projections and angles in [Measured_data](./1_Measured_data).
 
 ### 3. Experimental Atomic Model
 
-Folder: [Final_coordinates](./4_Final_coordinates)
+Folder: [Final_coordinates](./3_Final_coordinates)
 
-The final 3D atomic model and chemical species (i.e. type 1, 2 and 3) of the glass-forming nanoparticle.
+The final 3D atomic model and chemical species (i.e. Ni and Pt) of the Pt-based nanoparticles.
 
 ### 4. Post Data Analysis —— Nanoparticle properties
 
-Folder: [Data_analysis_np_properties](./7_Data_analysis_np_properties)
+Folder: [Data_analysis_np_properties](./4_Data_analysis_np_properties)
 
 Run the code `Main_1_pdf_and_boo_calculation_all_atoms.m` to calculate the radial distribution function and the bond orientation order parameter for all the atoms in the glass-forming nanoparticle; Run the code `Main_2_pdf_calculation_amorphous_region.m` to compute the radial distribution function and pair distribution function for all the amorphous atoms in the sample; Run the code `Main_3_voronoi_calculation_amorphous_region.m` to determine the Voronoi indices for all the atoms in the sample.
 
 ### 5. Post Data Analysis —— Local environment descriptor
 
-Folder: [Data_analysis_LED](./8_Data_analysis_LED)
+Folder: [Data_analysis_LED](./5_Data_analysis_LED)
 
 
 Run the code `Main_1_fitting_LED_equation.m` to calculate the error of different descriptors conbination with equation $x_{1}e^{- a_{1} x_{2}} + a_{2} x_{3}$; Run the code `Main_2_LED_plot.m` to check the volcano plot between LED and activities in the Pt-based nanoparticles.
