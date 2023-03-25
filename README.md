@@ -73,6 +73,7 @@ Run the code `Main_1_pdf_and_boo_calculation_all_atoms.m` to calculate the radia
 ### 5. Post Data Analysis —— Local environment descriptor
 
 Folder: [Data_analysis_LED](./8_Data_analysis_LED)
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 Run the code `Main_1_fitting_LED_equation.m` to calculate the error of different descriptors conbination withe equation ![formula](https://render.githubusercontent.com/render/math?math=\largex_{1}\times\exp{-a_{1}x_{2}}) the possible MROs based on the breadth first search algorithm; Run the code `Main_2_final_mro.m` to determine the final MROs in the glass-forming nanoparticle.
 
