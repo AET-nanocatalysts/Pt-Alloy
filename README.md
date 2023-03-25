@@ -68,12 +68,16 @@ The final 3D atomic model and chemical species (i.e. Ni and Pt) of the Pt-based 
 
 Folder: [Data_analysis_np_properties](./4_Data_analysis_np_properties)
 
-Run the code `Main_1_calculate_BOO_Ptbond.m` to calculate the bond orientation order parameter and the average nearby Pt bond length for all the atoms in the Pt-based nanoparticles; Run the code `Main_2_calculate_chemSROP.m` to calculate the chemical SRO for all the atoms in the Pt-based nanoparticles; Run the code `Main_3_all_para_collect.m` to calculate generalized coordination number, elemental generalized coordination number, strain and other related properties inside;  as well as collect all the possible descriptors for all the atoms in the Pt-based nanoparticles.
+Run the code `Main_1_calculate_BOO_Ptbond.m` to calculate the bond orientation order parameter and the average nearby Pt bond length for all the atoms in the Pt-based nanoparticles.    
+
+Run the code `Main_2_calculate_chemSROP.m` to calculate the chemical SRO for all the atoms in the Pt-based nanoparticles.   
+
+Run the code `Main_3_all_para_collect.m` to calculate generalized coordination number, elemental generalized coordination number, strain and other related properties inside;  as well as collect all the possible descriptors for all the atoms in the Pt-based nanoparticles.
 
 ### 5. Post Data Analysis —— Local environment descriptor
 
 Folder: [Data_analysis_LED](./5_Data_analysis_LED)
 
-
-Run the code `Main_1_fitting_LED_equation.m` to calculate the error of different descriptors conbination with equation $x_{1}e^{- a_{1} x_{2}} + a_{2} x_{3}$; Run the code `Main_2_LED_volcano_plot.m` to check the volcano plot between LED and activities in the Pt-based nanoparticles.
+Run the code `Main_1_fitting_LED_equation.m` to calculate the error of different descriptors conbination with equation $x_{1}e^{- a_{1} x_{2}} + a_{2} x_{3}$.    
+Run the code `Main_2_LED_volcano_plot.m` to check the volcano plot between LED and activities in the Pt-based nanoparticles.
 
