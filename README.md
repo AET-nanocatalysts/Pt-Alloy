@@ -75,5 +75,5 @@ Run the code `Main_1_pdf_and_boo_calculation_all_atoms.m` to calculate the radia
 Folder: [Data_analysis_LED](./8_Data_analysis_LED)
 
 
-Run the code `Main_1_fitting_LED_equation.m` to calculate the error of different descriptors conbination with equation $x_{1}e^{- a_{1} x_{2}} + a_{2} x_{3}$ the possible MROs based on the breadth first search algorithm; Run the code `Main_2_final_mro.m` to determine the final MROs in the glass-forming nanoparticle.
+Run the code `Main_1_fitting_LED_equation.m` to calculate the error of different descriptors conbination with equation $x_{1}e^{- a_{1} x_{2}} + a_{2} x_{3}$; Run the code `Main_2_LED_plot.m` to check the volcano plot between LED and activities in the Pt-based nanoparticles.
 
