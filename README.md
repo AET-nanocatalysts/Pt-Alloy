@@ -2,12 +2,15 @@
 
 **Atomic-scale identification of the active sites of nanocatalysts**
 
-Yao Yang<sup>1*</sup>, Jihan Zhou<sup>1*</sup>, Zipeng Zhao<sup>2*</sup>, Geng Sun<sup>3*</sup>, Saman Moniri<sup>1</sup>, Colin Ophus<sup>4</sup>, Yongsoo Yang<sup>2</sup>, Ziyang Wei<sup>5</sup>, Yakun Yuan<sup>1</sup>, Cheng Zhu<sup>6</sup>, Yang Liu<sup>2</sup>, Qingying Jia<sup>7</sup>, Hendrik Heinz<sup>6</sup>, Peter Ercius<sup>4</sup>, Peter Ercius<sup>4</sup> Philippe Sautet</sup>3,5</sup>, Yu Huang</sup>1</sup> & Jianwei Miao<sup>1†</sup>    
+Yao Yang<sup>1*</sup>, Jihan Zhou<sup>1*</sup>, Zipeng Zhao<sup>2*</sup>, Geng Sun<sup>3*</sup>, Saman Moniri<sup>1</sup>, Colin Ophus<sup>4</sup>, Yongsoo Yang<sup>2</sup>, Ziyang Wei<sup>5</sup>, Yakun Yuan<sup>1</sup>, Cheng Zhu<sup>6</sup>, Yang Liu<sup>2</sup>, Qingying Jia<sup>7</sup>, Hendrik Heinz<sup>6</sup>, Peter Ercius<sup>4</sup>, Philippe Sautet<sup>3,5</sup>, Yu Huang<sup>1</sup> & Jianwei Miao<sup>1†</sup>    
 
 *<sup>1</sup>Department of Physics & Astronomy and California NanoSystems Institute, University of California, Los Angeles, CA 90095, USA.*    
-*<sup>2</sup>Department of Mathematics, University of California, Los Angeles, CA 90095, USA.*     
-*<sup>3</sup>Department of Materials Science and Engineering, University of Maryland, College Park, Maryland, 20742, USA.*     
-*<sup>4</sup>National Center for Electron Microscopy, Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.*    
+*<sup>2</sup>Department of Materials Science and Engineering, University of California, Los Angeles, CA 90095, USA.*     
+*<sup>3</sup>Department of Chemical and Biomolecular Engineering, University of California, Los Angeles, Los Angeles, CA 90095, USA.*     
+*<sup>4</sup>National Center for Electron Microscopy, Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.*   
+*<sup>5</sup>Department of Chemistry and Biochemistry, University of California, Los Angeles, Los Angeles, CA 90095, USA. 
+*<sup>6</sup>Department of Chemical and Biological Engineering, University of Colorado at Boulder, Boulder, CO, USA. 
+*<sup>7</sup>Department of Chemistry and Chemical Biology, Northeastern University, Boston, MA, USA.
 **These authors contributed equally to this work.*    
 *†Correspondence and requests for materials should be addressed to J.M. (miao@physics.ucla.edu).*  
 
@@ -47,52 +50,29 @@ This package has been tested with `Matlab` R2019b. All the codes have to run in 
 
 Folder: [Measured_data](./1_Measured_data)
 
-This folder contains 55 experimental projections after denoising and alignment as well as their corresponding angles.
+This folder contains the experimental projections after denoising and alignment as well as their corresponding angles for all Pt alloys in the experiments.
 
-### 2. The REal Space Iterative REconstruction (RESIRE) Package
-
-Folder: [RESIRE_package](./2_RESIRE_package)
-
-Run the sample code Main_RESIRE_sample.m to get the 3D reconstruction of a smaller test object. Run the main code `Main_RESIRE_MG.m` to obtain the 3D reconstruction of the multi-component glass-forming sample.
-
-### 3. Reconstructed 3D Volume
+### 2. Reconstructed 3D Volume
 
 Folder: [Final_reconstruction_volume](./3_Final_reconstruction_volume)
 
-This folder contains the 3D volume of the glass-forming nanoparticle reconstructed from `Main_RESIRE_MG.m`.
+This folder contains the 3D volume of all Pt alloys in the experiments reconstructed by projections and angles in [Measured_data](./1_Measured_data).
 
-### 4. Atom Tracing and Classification
+### 3. Experimental Atomic Model
 
-Folder: [Tracing_and_classification](./4_Tracing_and_classification)
-
-Run the code `Main_polynomial_tracing.m` to trace the initial atomic positions from the reconstructed 3D volume. After the manual checking of the 3D atomic positions, run the code Main_classification.m to classify the eight elements in the sample into three different types: Co and Ni as type 1, Ru, Rh, Pd and Ag as type 2, and Ir and Pt as type 3.
-
-### 5. Atomic Position Refinement
-
-Folder: [Position_refinement](./5_Position_refinement)
-
-Run the code `Main_position_refinement.m` to refine the 3D atomic coordinates in the glass-forming nanoparticle.
-
-### 6. Experimental Atomic Model
-
-Folder: [Final_coordinates](./6_Final_coordinates)
+Folder: [Final_coordinates](./4_Final_coordinates)
 
 The final 3D atomic model and chemical species (i.e. type 1, 2 and 3) of the glass-forming nanoparticle.
 
-### 7. Post Data Analysis —— Short Range Order
+### 4. Post Data Analysis —— Nanoparticle properties
 
-Folder: [Data_analysis_sro](./7_Data_analysis_sro)
+Folder: [Data_analysis_np_properties](./7_Data_analysis_np_properties)
 
 Run the code `Main_1_pdf_and_boo_calculation_all_atoms.m` to calculate the radial distribution function and the bond orientation order parameter for all the atoms in the glass-forming nanoparticle; Run the code `Main_2_pdf_calculation_amorphous_region.m` to compute the radial distribution function and pair distribution function for all the amorphous atoms in the sample; Run the code `Main_3_voronoi_calculation_amorphous_region.m` to determine the Voronoi indices for all the atoms in the sample.
 
-### 8. Post Data Analysis —— Medium Range Order
+### 5. Post Data Analysis —— Local environment descriptor
 
 Folder: [Data_analysis_mro](./8_Data_analysis_mro)
 
 Run the code `Main_1_potential_mro.m` to identify the possible MROs based on the breadth first search algorithm; Run the code `Main_2_final_mro.m` to determine the final MROs in the glass-forming nanoparticle.
 
-### 9. Supplementary Figures
-
-Folder: [Supplementary_Figures](./9_Supplementary_figures)
-
-This file contains four Supplementary Figures.
