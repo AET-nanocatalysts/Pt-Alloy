@@ -72,7 +72,7 @@ Run the code `Main_1_pdf_and_boo_calculation_all_atoms.m` to calculate the radia
 
 ### 5. Post Data Analysis —— Local environment descriptor
 
-Folder: [Data_analysis_mro](./8_Data_analysis_mro)
+Folder: [Data_analysis_LED](./8_Data_analysis_LED)
 
 Run the code `Main_1_potential_mro.m` to identify the possible MROs based on the breadth first search algorithm; Run the code `Main_2_final_mro.m` to determine the final MROs in the glass-forming nanoparticle.
 
