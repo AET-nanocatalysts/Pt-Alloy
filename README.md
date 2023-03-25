@@ -69,9 +69,7 @@ The final 3D atomic model and chemical species (i.e. Ni and Pt) of the Pt-based 
 Folder: [Data_analysis_np_properties](./4_Data_analysis_np_properties)
 
 Run the code `Main_1_calculate_BOO_Ptbond.m` to calculate the bond orientation order parameter and the average nearby Pt bond length for all the atoms in the Pt-based nanoparticles.    
-
 Run the code `Main_2_calculate_chemSROP.m` to calculate the chemical SRO for all the atoms in the Pt-based nanoparticles.   
-
 Run the code `Main_3_all_para_collect.m` to calculate generalized coordination number, elemental generalized coordination number, strain and other related properties inside;  as well as collect all the possible descriptors for all the atoms in the Pt-based nanoparticles.
 
 ### 5. Post Data Analysis —— Local environment descriptor
