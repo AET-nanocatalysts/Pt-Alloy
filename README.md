@@ -75,5 +75,5 @@ Run the code `Main_1_calculate_BOO_Ptbond.m` to calculate the bond orientation o
 Folder: [Data_analysis_LED](./5_Data_analysis_LED)
 
 
-Run the code `Main_1_fitting_LED_equation.m` to calculate the error of different descriptors conbination with equation $x_{1}e^{- a_{1} x_{2}} + a_{2} x_{3}$; Run the code `Main_2_LED_plot.m` to check the volcano plot between LED and activities in the Pt-based nanoparticles.
+Run the code `Main_1_fitting_LED_equation.m` to calculate the error of different descriptors conbination with equation $x_{1}e^{- a_{1} x_{2}} + a_{2} x_{3}$; Run the code `Main_2_LED_volcano_plot.m` to check the volcano plot between LED and activities in the Pt-based nanoparticles.
 
