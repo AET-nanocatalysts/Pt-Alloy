@@ -8,9 +8,9 @@ Yao Yang<sup>1*</sup>, Jihan Zhou<sup>1*</sup>, Zipeng Zhao<sup>2*</sup>, Geng S
 *<sup>2</sup>Department of Materials Science and Engineering, University of California, Los Angeles, CA 90095, USA.*     
 *<sup>3</sup>Department of Chemical and Biomolecular Engineering, University of California, Los Angeles, Los Angeles, CA 90095, USA.*     
 *<sup>4</sup>National Center for Electron Microscopy, Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.*   
-*<sup>5</sup>Department of Chemistry and Biochemistry, University of California, Los Angeles, Los Angeles, CA 90095, USA.     
-*<sup>6</sup>Department of Chemical and Biological Engineering, University of Colorado at Boulder, Boulder, CO, USA.      
-*<sup>7</sup>Department of Chemistry and Chemical Biology, Northeastern University, Boston, MA, USA.     
+*<sup>5</sup>Department of Chemistry and Biochemistry, University of California, Los Angeles, Los Angeles, CA 90095, USA.*     
+*<sup>6</sup>Department of Chemical and Biological Engineering, University of Colorado at Boulder, Boulder, CO, USA.*      
+*<sup>7</sup>Department of Chemistry and Chemical Biology, Northeastern University, Boston, MA, USA.*     
 **These authors contributed equally to this work.*     
 *†Correspondence and requests for materials should be addressed to J.M. (miao@physics.ucla.edu).*  
 
