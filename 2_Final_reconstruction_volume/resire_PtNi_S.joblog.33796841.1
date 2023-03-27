@@ -1,0 +1,13 @@
+Job  started on:    amd01
+Job  started on:    Mon Mar 27 00:42:04 CST 2023
+ 
+matlab -nodisplay -nosplash -r "cd /storage/yangyaoLab/yangyao/Data/PtNi/runs; resire_PtNi_S(1); exit" >> resire_PtNi_S.output.33796840.1
+{Unrecognized function or variable 'RESIRE_Reconstructor'.
+
+Error in resire_PtNi_S (line 9)
+RESIRE = RESIRE_Reconstructor();
+} 
+/var/spool/slurmd/job33796841/slurm_script: line 21: 2978912 Killed                  matlab -nodisplay -nosplash -r "cd `pwd`; resire_PtNi_S($SLURM_ARRAY_TASK_ID); exit" >> resire_PtNi_S.output.$SLURM_ARRAY_JOB_ID.$SLURM_ARRAY_TASK_ID
+Job  ended on:    amd01
+Job  ended on:    Mon Mar 27 00:42:48 CST 2023
+ 

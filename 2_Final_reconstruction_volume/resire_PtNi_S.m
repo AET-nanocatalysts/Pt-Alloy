@@ -1,6 +1,6 @@
 function [] = resire_PtNi_S(ind)
 
-addpath('/u/home/s/shikamar/software/functions/')
+addpath('/storage/yangyaoLab/yangyao/Data/HEA/recon/src/')
 pj_filename         = sprintf('proj_S%d.mat',ind);
 angle_filename      = sprintf('angle_S%d.mat',ind);
 
