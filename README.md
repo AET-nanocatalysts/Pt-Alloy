@@ -50,32 +50,32 @@ This package has been tested with `Matlab` R2019b. All the codes have to run in 
 
 Folder: [Measured_data](./1_Measured_data)
 
-This folder contains the experimental projections after denoising and alignment as well as their corresponding angles for all Pt alloys in the experiments.
+This folder contains the experimental projections after denoising and alignment as well as their corresponding angles for all the Pt alloy nanocatalysts.
 
 ### 2. Reconstructed 3D Volume
 
 Folder: [Final_reconstruction_volume](./2_Final_reconstruction_volume)
 
-This folder contains the 3D volume of all Pt alloys in the experiments reconstructed by projections and angles in [Measured_data](./1_Measured_data). The reconstruction codes can be achieved in [RESIRE_package](https://github.com/AET-MetallicGlass/Supplementary-Data-Codes/tree/master/2_RESIRE_package).
+This folder contains the 3D volume of all the Pt alloy nanocatalysts reconstructed from experimental projections and angles in [Measured_data](./1_Measured_data). The reconstruction codes can be found in [RESIRE_package](https://github.com/AET-MetallicGlass/Supplementary-Data-Codes/tree/master/2_RESIRE_package).
 
 ### 3. Experimental Atomic Model
 
 Folder: [Final_coordinates](./3_Final_coordinates)
 
-The final 3D atomic model and chemical species (i.e. Ni and Pt) of the Pt-based nanoparticles.The tracing codes can be achieved in [Tracing_codes](https://github.com/AET-MetallicGlass/Supplementary-Data-Codes/tree/master/4_Tracing_and_classification).
+This folder contains the final 3D atomic models and chemical species (i.e. Ni and Pt) of the Pt alloy nanocatalysts. The tracing codes can be found in [Tracing_codes](https://github.com/AET-MetallicGlass/Supplementary-Data-Codes/tree/master/4_Tracing_and_classification).
 
-### 4. Post Data Analysis —— Nanoparticle properties
+### 4. Post Data Analysis — The experimentally measured structural and chemical properties of the Pt alloy nanocatalysts
 
 Folder: [Data_analysis_np_properties](./4_Data_analysis_np_properties)
 
-Run the code `Main_1_calculate_BOO_Ptbond.m` to calculate the bond orientation order parameter and the average nearby Pt bond length for all the atoms in the Pt-based nanoparticles.    
-Run the code `Main_2_calculate_chemSROP.m` to calculate the chemical SRO for all the atoms in the Pt-based nanoparticles.   
-Run the code `Main_3_all_para_collect.m` to calculate generalized coordination number, elemental generalized coordination number, strain and other related properties inside;  as well as collect all the possible descriptors for all the atoms in the Pt-based nanoparticles.
+Run the code `Main_1_calculate_BOO_Ptbond.m` to calculate the bond orientation order parameter and the average nearby Pt bond length for all the atoms in the Pt alloy nanocatalysts.    
+Run the code `Main_2_calculate_chemSROP.m` to calculate the chemical short-range order for all the atoms in the Pt alloy nanocatalysts.   
+Run the code `Main_3_all_para_collect.m` to calculate the generalized coordination number, elemental generalized coordination number, strain, and other structural / chemical properties of the Pt alloy nanocatalysts.
 
-### 5. Post Data Analysis —— Local environment descriptor
+### 5. Post Data Analysis — The local environment descriptor (LED)
 
 Folder: [Data_analysis_LED](./5_Data_analysis_LED)
 
-Run the code `Main_1_fitting_LED_equation.m` to calculate the error of different descriptors conbination with equation $x_{1}e^{- a_{1} x_{2}} + a_{2} x_{3}$.    
-Run the code `Main_2_LED_volcano_plot.m` to check the volcano plot between LED and activities in the Pt-based nanoparticles.
+Run the code `Main_1_fitting_LED_equation.m` to to calculate the root mean square error (RMSE) of the LED by fitting a large number of experimentally measured structural and chemical properties to the OH binding energy of the 17,985 surface Pt sites of the Pt alloy nanocatalysts using equation $x_{1}e^{- a_{1} x_{2}} + a_{2} x_{3}$.    
+Run the code `Main_2_LED_volcano_plot.m` to to calculate the volcano plot of the LED and the ORR activity of the Pt alloy nanocatalysts.
 
