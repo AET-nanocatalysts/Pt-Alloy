@@ -66,7 +66,7 @@ This folder contains the final 3D atomic models and chemical species (i.e. Ni an
 
 ### 4. Post Data Analysis — The experimentally measured structural and chemical properties of the Pt alloy nanocatalysts
 
-Folder: [Data_analysis_np_properties](./4_Data_analysis_np_properties)
+Folder: [Data_analysis_properties](./4_Data_analysis_properties)
 
 Run the code `Main_1_calculate_BOO_Ptbond.m` to calculate the bond orientation order parameter and the average nearby Pt bond length for all the atoms in the Pt alloy nanocatalysts.    
 Run the code `Main_2_calculate_chemSROP.m` to calculate the chemical short-range order for all the atoms in the Pt alloy nanocatalysts.   
