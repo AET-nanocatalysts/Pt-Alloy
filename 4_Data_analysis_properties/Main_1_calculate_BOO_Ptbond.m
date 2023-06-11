@@ -1,4 +1,4 @@
-%% Main_2_calculate_chemSROP
+%% Main_1_calculate_BOO_Ptbond
 % calculate the BOO and Pt bond length for each NPs
 
 clear; clc; close all;
